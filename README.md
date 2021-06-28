@@ -19,9 +19,17 @@ yvm use latest
 
 ## Installation
 
+### Oh My Fish
+
+Install with [OMF](https://github.com/oh-my-fish/oh-my-fish):
+
+```shell
+omf install https://github.com/adguy360/fish-yvm
+```
+
 ### Fisher
 
-Install with [Fisher](https://github.com/jorgebucaran/fisher) (recommended):
+Install with [Fisher](https://github.com/jorgebucaran/fisher):
 
 ```shell
 fisher add cideM/fish-yvm
