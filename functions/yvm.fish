@@ -68,7 +68,7 @@ function _yvm_get_releases
         # because users saw an error message that didn't tell them anything.
         # Using a temporary file as an intermediary and letting curl output its
         # progress and errors is much easier.
-        curl --no-progress-meter $yvm_fish_yarn_releases_url -o $releases_temp || return 1
+        curl $yvm_fish_yarn_releases_url -o $releases_temp || return 1
 
         cat $releases_temp\
                 | tr ',' '\n'\
